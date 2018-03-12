@@ -1,0 +1,42 @@
+/* Give the header and footer sections a border and background color
+-  Give the main content section a background color
+-  Apply a new font to the entire page (ex: Helvetica or Arial)
+-  Italicize any book titles that appear in the text content of the page
+-  Apply a new color to each heading element
+-  Display a different color when the mouse rolls over the navigational links
+-  Hide the bullet-points of the unordered lists in the site   */
+
+
+/* h3 {
+font-style: italic;
+} */
+
+
+body {
+  background-color: lavender;
+  font-family: Arial;
+}
+
+a:link {
+    color: Orchid;
+}
+a:hover {
+    color: LightCoral;
+}
+
+h1 {
+    border: 3px dotted Orchid ;
+    color: indigo;
+}
+
+footer {
+  border: 3px dotted Orchid;
+  color: indigo;
+}
+
+h3 {
+  color: RebeccaPurple;
+}
+h4 {
+  color: RebeccaPurple;
+}
