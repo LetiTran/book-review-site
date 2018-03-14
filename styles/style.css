@@ -7,36 +7,93 @@
 -  Hide the bullet-points of the unordered lists in the site   */
 
 
-/* h3 {
-font-style: italic;
-} */
+* {
+  font-family: sans-serif;
+}
+
+header, footer {
+  margin: auto;
+  text-align: center;
+  background-color: #c94c4c;
+  border: 5px solid #c94c4c;
+  border-radius: 20px;
+  padding-left: 10px;
+  color: #4f3222;
+}
+
+a[href *="ada"] {
+  text-decoration: none;
+}
+
+nav {
+  margin: auto;
+  text-align: center;
+  background-color: #c94c4c;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+nav li {
+  list-style-type: none;
+}
 
 
 body {
-  background-color: lavender;
-  font-family: Arial;
+  background-color: #e6e2d3;
+  color: #4f3222;
 }
 
-a:link {
-    color: Orchid;
-}
-a:hover {
-    color: LightCoral;
-}
-
-h1 {
-    border: 3px dotted Orchid ;
-    color: indigo;
-}
-
-footer {
-  border: 3px dotted Orchid;
-  color: indigo;
-}
 
 h3 {
-  color: RebeccaPurple;
+  color: #c94c4c;
+  /* #4f3222 */
 }
 h4 {
-  color: RebeccaPurple;
+  color: #4f3222 ;
+  font-style: italic;
 }
+
+
+a:link {
+  color: #4f3222;
+}
+a:hover {
+  color: LightCoral;
+}
+
+a:visited {
+  color: lightgrey;
+}
+
+.books ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+img {
+  border-radius: 20px;
+}
+
+
+/* h3::before {
+content: "\01F431";
+} */
+
+/* --------------- */
+/* body{padding 0px 15px}
+
+border-radius : 30px ---> corner borders
+
+made a class book
+by doing
+/* <div or section class="books"> */
+/* .books ul li{ */
+/* display: inline;
+}
+
+.books ul li img{
+/* make size here */
+/* } */
+/* */
+
+/* change the strong on the revies to label tag */

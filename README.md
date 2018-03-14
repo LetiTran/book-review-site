@@ -78,7 +78,7 @@ In the style sheet, practice the following:
 -  Give the header and footer sections a border and background color
 -  Give the main content section a background color
 -  Apply a new font to the entire page (ex: Helvetica or Arial)
--  Italicize any book titles that appear in the text content of the page
+<!-- -  Italicize any book titles that appear in the text content of the page -->
 -  Apply a new color to each heading element
 -  Display a different color when the mouse rolls over the navigational links
 -  Hide the bullet-points of the unordered lists in the site  
@@ -86,13 +86,13 @@ In the style sheet, practice the following:
 
 Page Specific Styling:
 -  `index.html`
-    -  Make all the images the same width
+    <!-- -  Make all the images the same width -->
 -  `eloquent-ruby.html`
-    - Give each review a background color of light gray
-    - Change the line-height of the review's paragraphs to 150%
+    <!-- - Give each review a background color of light gray
+    - Change the line-height of the review's paragraphs to 150% -->
 -  `contact.html`
     - Center all the text of the main content (excluding content in header and footer elements)
-    - Round the corners of the site maintainer image
+    <!-- - Round the corners of the site maintainer image -->
 
 When you are finished review your changes with your seat squad.
 
